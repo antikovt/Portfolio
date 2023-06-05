@@ -1,0 +1,37 @@
+{
+  "Bubbles": {
+    "name": "Bubble Clock",
+    "date": "28/03/2023",
+    "desc": "A way to tell the time with (almost) physically accurate collisions.",
+    "tags": ["Web", "P5.js", "Physics"],
+    "image": "images/bubbles.png"
+  },
+  "Undyne": {
+    "name": "AR Undyne Simulator",
+    "date": "17/03/2023",
+    "desc": "Shield your heart from a barrage of homing arrows using inputs from your camera. Heavily inspired by Toby Fox's Undertale. (Might be a bit janky, doesn't work on every system)",
+    "tags": ["Web", "P5.js", "Motion Capture"],
+    "image": "images/undyne.jpeg"
+  },
+  "Tripp3r": {
+    "name": "Tripp3r",
+    "date": "21/12/2022",
+    "desc": "Finished prototype of a navigation app for a Dutch railway company. Includes detailed route descriptions and an interactive map.",
+    "tags": ["Figma", "Prototyping", "Android app design"],
+    "image": "images/tripper.png"
+  },
+  "Twitter": {
+    "name": "Twitter UX Review Poster",
+    "date": "29/11/2022",
+    "desc": "Twitter's a rather cool app, what can I say?\nThis was pre\u2060-\u2060Elon Musk, though.",
+    "tags": ["Poster", "Visual Design", "UX assessment"],
+    "image": "images/twitter.png"
+  },
+  "Eyes": {
+    "name": "They're Always Watching",
+    "date": "15/11/2022",
+    "desc": "An exercise in interactive programming. The eyes follow your cursor and squint when you poke at them.",
+    "tags": ["Processing.js"],
+    "image": "images/eyes.png"
+  }
+}
