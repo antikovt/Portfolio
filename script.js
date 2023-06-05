@@ -1,0 +1,9 @@
+var a = document.getElementById("about");
+var b = document.getElementById("twitter");
+var c = document.getElementById("twitter-overlay");
+var d = document.getElementById("close-popup");
+var e = document.getElementById("warning");
+a.addEventListener( "click", () => a.classList.toggle("toggled") );
+b.addEventListener( "click", () => c.classList.toggle("toggled") );
+c.addEventListener( "click", () => c.classList.toggle("toggled") );
+d.addEventListener( "click", () => e.classList.toggle("toggled") );

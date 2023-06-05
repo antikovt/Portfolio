@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Inter:wght@100..900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900">
+    <link rel="stylesheet" href="style.css">
+    <title>Anton Kovtoniuk</title>
+</head>
+<body>
+    <div id="blur"></div>
+    <div id="twitter-overlay"><img src="assets/Twit_page.png" alt=""></div>
+    <div id="first">
+        <div>
+            <div class="panel" id="title">
+                <h1>Anton Kovtoniuk</h1>
+                <p>I try to make stuff look good.</p>
+                <div id="icons">
+                    <a href="https://www.linkedin.com/in/antikovt/" target="_blank"><img src="assets/Vector.svg" alt=""></a>
+                    <a href="https://wa.me/31647504247/" target="_blank"><img src="assets/Vector-1.svg" alt=""></a>
+                    <a href="https://t.me/antikovt" target="_blank"><img src="assets/Vector-2.svg" alt=""></a>
+                    <a href="mailto:antikovt@gmail.com?subject=Let&#39;s keep in touch!" target="_blank"><img src="assets/Vector-3.svg" alt=""></a>
+                </div>
+            </div>
+            <div id="warning">
+                <p>
+                    Please be aware that these projects weren&#39;t built
+                    with mobile devices in mind. I recommend viewing the
+                    website from your PC for a better
+                    experience.
+                </p>
+                <a id="close-popup">
+                    <img src="assets/Cross.svg" alt="">
+                </a>
+            </div>
+            <div class="panel" id="about">
+                <div id="top">
+                    <h1 style="width: 80%;">Wanna know me better?</h1>
+                    <img src="assets/Arrow.svg" alt="">
+                </div>
+                <div id="collapsible">
+                    <div>
+                        <p>
+                           I am a 19-year-old UX Designer based
+                            in The Hague, Netherlands. I am a big
+                            fan of simple games, music and feel-good
+                            interfaces. I use HTML, CSS, JavaScript,
+                            Figma and Illustrator to sketch, prototype,
+                            test and develop. I am also familiar with
+                            3D Plotting and Python development.<br><br>Searching for a UX Design/Web-dev internship in the second half of 2023.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="second">
+        <div class="panel project" onclick="window.location.href='/bubbles.html';">
+            <div class="img_container"><img src="assets/bubbles.png" alt=""></div>
+            <div class="desc">
+                <h1>Bubble Clock</h1>
+                <h2>28.03.2023</h2>
+                <p> A way to tell the time with (almost) 
+                    physically accurate collisions.</p>
+                <div class="tags">
+                    <div>Web</div>
+                    <div>JavaScript</div>
+                    <div>Physics</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel project" onclick="window.location.href='/undyne.html';">
+            <div class="img_container"><img src="assets/Undyne_screenshot.jpeg" alt=""></div>
+            <div class="desc">
+                <h1>AR Undyne Simulator</h1>
+                <h2>17.03.2023</h2>
+                <p> Shield your heart from a barrage of
+                    homing arrows using inputs from
+                    your camera. Heavily inspired by
+                    Toby Fox&#39;s Undertale. (Might be
+                    a bit janky, doesn&#39;t work on every system)</p>
+                <div class="tags">
+                    <div>Web</div>
+                    <div>P5.js</div>
+                    <div>Motion Capture</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel project" onclick="window.location.href='/tripper.html';">
+            <div class="img_container"><img src="assets/BTP Big Mockup.png" alt=""></div>
+            <div class="desc">
+                <h1>Tripp3r</h1>
+                <h2>21.12.2022</h2>
+                <p> Finished prototype of a navigation
+                    app for a Dutch railway company.
+                    Includes detailed route descriptions
+                    and an interactive map.</p>
+                <div class="tags">
+                    <div>Figma</div>
+                    <div>Prototyping</div>
+                    <div>Android app design</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel project" id="twitter">
+            <div class="img_container"><img src="assets/Twitter_poster.png" alt=""></div>
+            <div class="desc">
+                <h1>Twitter Review Poster</h1>
+                <h2>29.11.2022</h2>
+                <p> Twitter&#39;s a rather cool app, 
+                    what can I say?<br>
+                    This was pre-Elon Musk, though.</p>
+                <div class="tags">
+                    <div>Poster</div>
+                    <div>Visual design</div>
+                    <div>Design review</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel project" onclick="window.location.href='/eyes.html';">
+            <div class="img_container"><img src="assets/Eyes.png" alt=""></div>
+            <div class="desc">
+                <h1>They&#39;re Always Watching</h1>
+                <h2>15.11.2022</h2>
+                <p> A simple coding exercise.
+                    The eyes follow the cursor
+                    and squint if you poke them. </p>
+                <div class="tags">
+                    <div>Processing.js</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer></footer>
+<script src="script.js"></script>
+</html>
