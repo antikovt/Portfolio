@@ -1,6 +1,8 @@
 # Portfolio
 A hub of links to some of my interactive works, easily expandable and (semi-)adaptive.
 
+**This is the old version, which is frankly a bit of a nightmare all around. Uploaded for archiving purposes**
+
 
 ### List of works used:
 * Click The Eyes
