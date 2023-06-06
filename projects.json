@@ -1,4 +1,12 @@
 {
+  "CSS-Thing": {
+    "name": "CSS Playground",
+    "date": "29/05/2023",
+    "desc": "A collection of fun CSS+JS experiments. Basically things I found cool and tried to replicate using my own knowledge.",
+    "tags": ["Web", "JavaScript", "SCSS", "CSS", "HTML"],
+    "image": "images/css-thing.png",
+    "link": "https://htmlpreview.github.io/?https://github.com/antikovt/CSS-playground/blob/main/index.html"
+  },
   "Bubbles": {
     "name": "Bubble Clock",
     "date": "28/03/2023",

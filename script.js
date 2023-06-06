@@ -7,7 +7,12 @@ for (let project in projects) {
 
     const card = document.createElement("div");
     card.classList.add("project", "card");
-    card.setAttribute("onclick", `window.location.href='/${project}';`)
+
+    if (cur.link) {
+        card.setAttribute("onclick", `window.open("${cur.link}", "mywindow")`);
+    } else {
+        card.setAttribute("onclick", `window.location.href='/${project}';`);
+    }
 
     const imgCont = document.createElement("div");
     imgCont.classList.add("image-container");
