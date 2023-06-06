@@ -1,35 +1,32 @@
-html {
-  min-width: 1042px;
-  font-size: 15pt;
-}
-
 html, body {
   margin: 0;
   position: static;
 }
 
+html {
+  min-width: 1042px;
+  font-size: 15pt;
+}
+
+html::before,
+body::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  will-change: transform;
+}
+
 html::before {
   background-image: url("images/Background.png");
   background-size: cover;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  will-change: transform;
   z-index: -2;
 }
 
 body::before {
   backdrop-filter: blur(4px);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  will-change: transform;
   z-index: -1;
 }
 
@@ -71,34 +68,33 @@ h1, h2, h3 {
   font-weight: 500;
 }
 
-h1 {
-  font-size: 1.5rem;
+h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
 h2 {
-  margin: 0;
-  padding: 0;
   font-size: 1.1rem;
 }
 
 h3 {
-  margin: 0;
-  padding: 0.12rem 0.6rem;
   background-color: #134361;
   border-radius: 2rem;
   color: whitesmoke;
   font-size: 0.9rem;
   font-weight: 400;
+  padding: 0.12rem 0.6rem;
 }
 
 h4 {
-  margin: 0;
-  padding: 0.1rem 0 0;
   font-family: "Inter", Roboto, sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
+  padding: 0.1rem 0 0;
 }
 
 h5 {
@@ -125,9 +121,9 @@ div.title {
   padding: 1.45rem 0.9rem;
 }
 div.title > div {
-  width: 70%;
-  max-width: 12rem;
+  width: 75%;
   height: 1.45rem;
+  max-width: 12rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -279,6 +275,9 @@ div#twitter-overlay > img {
   }
   div#collapsible {
     padding: 1rem 1rem 1rem 1.5rem;
+  }
+  div.title > div {
+    height: 1.9rem;
   }
   p.about-me {
     padding-right: 0.4rem;
