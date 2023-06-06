@@ -1,5 +1,6 @@
 # Portfolio
 A hub of links to some of my interactive works, easily expandable and (semi-)adaptive. <br>
+Made using SCSS and JavaScript, information about the works is directly imported from an expandable JSON database. <br>
 Can be previewed on [Netlify](https://antikovt.netlify.app/).
 
 
