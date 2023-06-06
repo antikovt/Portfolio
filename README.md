@@ -1,5 +1,6 @@
 # Portfolio
-A hub of links to some of my interactive works, easily expandable and (semi-)adaptive.
+A hub of links to some of my interactive works, easily expandable and (semi-)adaptive. <br>
+Can be previewed on [Netlify](https://antikovt.netlify.app/).
 
 
 ### List of works used:
