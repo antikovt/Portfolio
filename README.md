@@ -1,5 +1,6 @@
 # Portfolio
 A hub of links to some of my interactive works, easily expandable and (semi-)adaptive. <br>
+Made using SCSS and JavaScript, information about the works is directly imported from an expandable JSON database. <br>
 Can be previewed on [Netlify](https://antikovt.netlify.app/).
 
 
@@ -27,5 +28,10 @@ Can be previewed on [Netlify](https://antikovt.netlify.app/).
   - An interactive P5.js clock with a primitive physics simulation and detailed collisions
   - Press and hold anywhere on the screen to blow a bubble
   - Larger bubbles rise slower and are harder to be pushed around by other bubbles
+
+* CSS Playground:
+  - A series of experiments and exercises created using SCSS and JS
+  - Things I found neat and tried to replicate myself
+  - More about it on [this GitHub page](https://github.com/antikovt/CSS-playground/)
 
 More projects to be added.
