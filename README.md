@@ -28,4 +28,9 @@ Can be previewed on [Netlify](https://antikovt.netlify.app/).
   - Press and hold anywhere on the screen to blow a bubble
   - Larger bubbles rise slower and are harder to be pushed around by other bubbles
 
+* CSS Playground:
+  - A series of experiments and exercises created using SCSS and JS
+  - Things I found neat and tried to replicate myself
+  - More about it on [this GitHub page](https://github.com/antikovt/CSS-playground/)
+
 More projects to be added.
