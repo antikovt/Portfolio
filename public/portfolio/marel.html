@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&family=Playfair+Display&display=swap');
+    </style>
+    <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <title>Benchmarking Tool</title>
+</head>
+<body>
+<main>
+    <div class="content">
+        <a class="title" href="/index.html">Anton Kovtoniuk</a>
+
+        <div id="top">
+            <h2 class="mobile-only heading-2" style="text-align: center; text-wrap: balance; font-size: 36px">Graduation internship<span style="font-family: 'Playfair Display', serif">:</span><br>Benchmarking tool for Marel</h2>
+            <div id="cover">
+                <div id="gallery">
+                    <div class="shadow-overlay"></div>
+                    <div id="carousel">
+                        <img src="/images/marel/cover.png" alt="">
+                        <img src="/images/marel/1.png" alt="">
+                        <img src="/images/marel/2.png" alt="">
+                        <img src="/images/marel/3.png" alt="">
+                        <img src="/images/marel/4.png" alt="">
+                        <img src="/images/marel/5.png" alt="">
+                        <img src="/images/marel/6.png" alt="">
+                    </div>
+                </div>
+                <span class="panel-3 desktop-only" id="project-date">February-July 2025</span>
+                <span class="panel-1 desktop-only" id="project-name" style="font-size: 41px">Graduation internship:<br>Benchmarking tool for Marel</span>
+            </div>
+            <div class="buttons">
+                <div><a class="panel-2" href="index.html">Back to list</a></div>
+                <a class="panel-2 arrow" onclick="carouselLeft()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                        <path d="M12.625 1.75L1.96246 11.7017C1.64477 11.9982 1.64477 12.5018 1.96246 12.7983L12.625 22.75" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <a class="panel-2 arrow" onclick="carouselRight()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                        <path d="M2.375 22.75L13.0375 12.7983C13.3552 12.5018 13.3552 11.9982 13.0375 11.7017L2.375 1.75" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <article>
+            <h2 class="heading-2">Summary</h2>
+            <p class="text">Marel is the global market leader in poultry and food–processing machinery, focused on providing valuable after-sale user experience with extensive troubleshooting, benchmarking and production monitoring tools. For my internship, I was tasked with completely redesigning the <b>SmartBase Machine Comparison Tool</b> - a digital product meant to help plant staff with machine health and performance monitoring.<br><br>The existing version was only developed as a technical showcase, and offered side-by-side machine stats without clear user value. My project involved rethinking the purpose of the tool, conducting user research, and developing a design vision aligned with real workflows in food production facilities.</p>
+            <a class="footer" style="text-decoration-line: none; pointer-events: none; color: rgba(255, 255, 255, 0.6)">Unfortunately I cannot offer a direct interactive showcase due to company policy.</a>
+            <h2 class="heading-2">Key proficiencies</h2>
+            <p class="text" style="font-variant: all-small-caps">Benchmarking&nbsp;&&nbsp;UX&nbsp;auditing&nbsp;| Stakeholder&nbsp;communication&nbsp;& client&nbsp;collaboration&nbsp;| User&nbsp;research&nbsp;| Insight&nbsp;synthesis&nbsp;| Prototyping&nbsp;| Design&nbsp;systems&nbsp;| Figma&nbsp;component&nbsp;system&nbsp;| Presentation&nbsp;& workshop&nbsp;facilitation</p>
+            <h2 class="heading-2">Design challenge</h2>
+            <p class="text">The Machine Comparison Tool needed to move beyond being a technical demo and evolve into a workflow-oriented feature. The goal was to design an intuitive multi-machine view that highlights trends and anomalies in historical data, supports rapid insight-making for production and innovation managers, and provides clear user value that justifies its inclusion in Marel’s paid subscription offering.</p>
+            <h2 class="heading-2">Project plan</h2>
+            <ol class="text">
+                <li>Desk research, auditing of existing solutions, expert review of the current version.</li>
+                <li>Sami-structured interview planning, participant recruitment.</li>
+                <li>User interview & expert workshop facilitation, iterative definition of the design vision.</li>
+                <li>Idea brainstorming, synthesis, definition of the design direction.</li>
+                <li>Prototyping, design, testing, stakeholder feedback.</li>
+                <li>Implementation preparation (Usage instructions, rollout plan, feature backlog).</li>
+            </ol>
+            <img src="">
+            <h2 class="heading-2">Research and Discovery</h2>
+            <ul class="text">
+                <li>Audited the current state of the tool and benchmarked similar industrial dashboards and consumer comparison tools.</li>
+                <li>Conducted 5 semi-structured interviews with industry roles such as R&D engineers, continuous improvement managers, plant managers and maintenance staff at food production companies (Tyson Foods, Peco Foods, Koch Foods, Simmons Foods).</li>
+                <li>Discovered that direct side-by-side comparison of machine data was often irrelevant due to product and program differences, switched focus to historical trends, anomaly detection, quick overviews and other data the users had a need for.</li>
+                <li>
+                    Key insights:
+                    <ul>
+                        <li>Users want multiple levels of detail (quick highlights + optional detailed view).</li>
+                        <li>Even in a combined view, focus should remain on individual machine performance rather than forced cross-comparison.</li>
+                        <li>There is a strong demand for automation and alerts to simplify manual monitoring.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2 class="heading-2">Synthesis and Vision</h2>
+            <ul class="text">
+                <li>Clustered interview insights into higher-level design inferences and reframed the value proposition.</li>
+                <li>
+                    Proposed shifting the tool toward a dashboard-like interface emphasizing:
+                    <ul>
+                        <li>Machine-level historical data visualization.</li>
+                        <li>Color-coded anomaly highlights and alerts.</li>
+                        <li>Consistency with Marel’s design system and AXIN suite.</li>
+                    </ul>
+                </li>
+                <li>Presented and validated this design vision with Marel’s UX team and internship supervisors, receiving approval to move forward into prototyping.</li>
+                <li>Created a fully modular and customisable grid-based design with adjustable cards of multiple sizes for different machines and data types.</li>
+                <li>Integrated the design into Marel's design framework in Figma allowing for quick implementation, developed three separate view layouts to be presented on different screen in different industrial use cases (office computer, big factory-floor overview, technical demo).</li>
+            </ul>
+            <h2 class="heading-2">Impact</h2>
+            <p class="text">As a result of this project I was able to transform the Comparison Tool from a simple demo into a fully-featured concept for a practical, customisable, role-driven monitoring and overviewing tool that could streamline workflows for plant and maintenance managers, as well as internal troubleshooting employees. In-depth interviews and an empathy-forward approach allowed me to uncover the value in historical and exception-based insights and provide Marel with a clear roadmap for a subscription-worthy addition to the SmartBase suite.</p>
+        </article>
+    </div>
+</main>
+</body>
+<script src="/js/scroll-gallery.js"></script>
+</html>

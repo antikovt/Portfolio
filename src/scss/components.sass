@@ -1,0 +1,178 @@
+@font-face
+  font-family: "Canicule Display"
+  src: url(../fonts/CaniculeDisplayv0.4-Bold.Trial.ttf) format("truetype")
+  font-weight: bold
+  font-style: normal
+
+@font-face
+  font-family: "Canicule Display"
+  src: url(../fonts/CaniculeDisplayv0.4-Light.Trial.ttf) format("truetype")
+  font-weight: normal
+  font-style: normal
+
+$white: #E9E9E9
+$black: #1E1C1B
+
+$canicule: "Canicule Display", "Playfair Display", serif
+$playfair: "Playfair Display", serif
+$montserrat: "Montserrat", "Avenir", sans-serif
+$garamond: "EB Garamond", serif
+
+a
+  text-decoration-line: none
+  cursor: pointer
+
+p
+  margin: 0
+
+p + p
+  margin-top: 10px
+
+.title
+  font-family: $canicule
+  font-size: 43px
+  font-weight: bold
+  color: $black
+
+%heading
+  font-family: $canicule
+  font-size: 63px
+  font-weight: normal
+  color: $black
+  margin: 0
+  padding: 0
+
+.heading-1
+  @extend %heading
+
+.heading-2
+  @extend %heading
+  font-size: 51px
+
+%panel
+  display: inline-block
+  padding: 4px 16px
+  border-radius: 4px
+  font-family: $montserrat
+  font-weight: normal
+  background-color: $white
+  color: $black
+  box-shadow: 0 4px 8px 0 rgba(black, 0.12)
+  text-wrap: balance
+
+.panel-1
+  @extend %panel
+  font-size: 51px
+
+.panel-2
+  @extend %panel
+  font-size: 34px
+
+.panel-3
+  @extend %panel
+  font-size: 26px
+
+.panel-4
+  @extend %panel
+  font-size: 16px
+
+%t
+  font-family: $garamond
+  font-size: 26px
+  color: $black
+
+.text
+  @extend %t
+
+.footer
+  @extend %t
+  font-size: 18px
+  color: rgba($black, 0.4)
+  text-decoration-line: underline
+  text-decoration-skip-ink: all
+  text-underline-position: from-font
+  text-underline-offset: 10%
+  & + .footer
+    padding-top: 6px
+
+.button-1
+  @extend %t
+  text-decoration-line: underline
+  text-decoration-skip-ink: all
+  text-decoration-color: rgba($black, 0.25)
+  text-underline-position: from-font
+  text-underline-offset: 10%
+  cursor: pointer
+  transition: text-decoration-color, text-underline-offset 150ms ease-out
+
+  &:hover
+    text-decoration-color: $black
+    text-underline-offset: 0
+
+.button-2
+  font-family: $montserrat
+  font-size: 26px
+  font-weight: normal
+  font-variant: all-small-caps
+  color: $black
+
+  display: inline-block
+  padding: 2px 16px
+  border-radius: 999px
+  border: 1px solid $black
+  background: $white
+  cursor: pointer
+
+  transition: border, background, color 300ms ease-out
+
+  &:hover
+    border: 1px solid $white
+    background: $black
+    color: $white
+
+.icon
+  width: 40px
+  height: 40px
+  padding: 4px
+  position: relative
+
+  svg
+    width: 40px
+    height: 40px
+    position: absolute
+
+    path
+      transition: fill 100ms ease-out
+
+  &:hover .icon-bkg path
+    fill: $white
+
+  &:hover .icon-frg path
+    fill: $black
+
+
+@media only screen and (orientation: landscape)
+  .mobile-only
+    display: none
+
+@media only screen and (orientation: portrait)
+  .desktop-only
+    display: none
+
+  .title
+    font-size: 40px
+
+  .heading-1
+    font-size: 50px
+
+  .heading-2
+    font-size: 40px
+
+  .panel-1
+    font-size: 36px
+
+  .panel-2
+    font-size: 26px
+
+  .text
+    font-size: 24px
